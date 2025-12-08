@@ -1,0 +1,72 @@
+.service-card {
+  position: relative;
+  background: white;
+  border-radius: 16px;
+  padding: 0;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+}
+
+/* ───────────── Status Ribbon ───────────── */
+
+.status-ribbon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 6px 14px;
+  color: white;
+  font-weight: bold;
+  border-bottom-left-radius: 10px;
+  font-size: 0.85rem;
+}
+
+/* ───────────── Content ───────────── */
+
+.card-body-custom {
+  padding: 20px;
+}
+
+.service-title {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.service-url {
+  color: gray;
+  font-size: 0.85rem;
+  word-break: break-all;
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.info-block .label {
+  display: block;
+  font-size: 0.75rem;
+  color: #6c757d;
+}
+
+.info-block .value {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+/* SSL */
+.ssl-ok {
+  color: #22c55e;
+  font-weight: bold;
+}
+
+.ssl-bad {
+  color: #ef4444;
+  font-weight: bold;
+}

@@ -1,0 +1,93 @@
+/* Arrière-plan blanc */
+.login-container {
+  background: #fff; /* fond blanc */
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Box noire */
+.login-box {
+  width: 100%;
+  max-width: 380px;
+  background: white; /* boîte noire */
+  border-radius: 14px;
+  padding: 25px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+  border-top: 4px solid red; /* touche orange */
+}
+
+/* Animation */
+.animate-fade-in {
+  animation: fadeIn 0.7s ease-out forwards;
+  opacity: 0;
+  transform: translateY(20px);
+}
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Logo et header */
+.login-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.login-logo {
+  width: 80px;
+  margin-bottom: 10px;
+}
+.login-header h3 {
+  color: black; /* texte blanc */
+  font-weight: bold;
+}
+.login-header p {
+  color: #ccc; /* texte gris clair */
+  font-size: 13px;
+}
+
+/* Inputs */
+.form-control {
+  background: #222; /* fond noir/gris foncé */
+  color: #fff; /* texte blanc */
+  border: 1px solid #555;
+  border-radius: 6px;
+}
+.form-control::placeholder {
+  color: #aaa; /* placeholder gris clair */
+}
+
+/* Bouton */
+.login-btn {
+  background: red; /* red */
+  color: #fff;
+  border: none;
+  padding: 7px 22px;
+  border-radius: 6px;
+  font-weight: 600;
+  width: 100%;
+}
+
+/* Checkbox label */
+label {
+  color: #fff;
+}
+
+/* Footer */
+.login-footer {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 10px;
+  color: #555;
+}
+
+/* Alert erreurs */
+.alert-danger {
+  background: #330000;
+  color: #ff9999;
+  border: 1px solid #ff4d4d;
+}

@@ -1,0 +1,115 @@
+:root {
+  --black: #000000;
+  --gray-light: #C9C3C4;
+  --gray-medium: #A6A6A6;
+  --white: #FFFFFF;
+}
+
+/* 🌍 Fond général */
+body {
+  background-color: var(--gray-light);
+  color: var(--black);
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* 🧭 Navbar */
+.navbar {
+  background-color: var(--black);
+  color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.navbar a {
+  color: var(--white);
+  text-decoration: none;
+  margin: 0 1rem;
+  transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+  background-color: var(--gray-medium);
+  color: var(--black);
+  border-radius: 6px;
+  padding: 0.3rem 0.6rem;
+}
+
+/* 📦 Cartes de service */
+.card {
+  background-color: var(--white);
+  border: 1px solid var(--gray-medium);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+/* 🟩 Statuts */
+.status-up {
+  background-color: var(--gray-medium);
+  color: var(--black);
+  padding: 0.3rem 0.8rem;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.status-down {
+  background-color: var(--black);
+  color: var(--white);
+  padding: 0.3rem 0.8rem;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+/* 🖱️ Boutons */
+.btn {
+  background-color: var(--black);
+  color: var(--white);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: var(--gray-medium);
+  color: var(--black);
+}
+
+/* 📊 Tableau d’historique */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: var(--white);
+  margin-top: 1rem;
+}
+
+.table th {
+  background-color: var(--gray-medium);
+  color: var(--white);
+  padding: 0.8rem;
+}
+
+.table td {
+  padding: 0.7rem;
+  border-bottom: 1px solid var(--gray-light);
+}
+
+.table tr:nth-child(even) {
+  background-color: var(--gray-light);
+}
+
+.table tr:hover {
+  background-color: var(--gray-medium);
+  color: var(--white);
+}

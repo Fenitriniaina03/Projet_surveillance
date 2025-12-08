@@ -1,0 +1,50 @@
+.service-header {
+  border-left: 6px solid #0d6efd;
+}
+
+.status-badge {
+  font-size: 0.9rem;
+  padding: 8px 14px;
+  border-radius: 10px;
+}
+
+/* info card */
+.info-card {
+  background: white;
+  padding: 20px 25px;
+  border-radius: 14px;
+  transition: 0.2s ease;
+}
+
+.info-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.12);
+}
+
+.info-title {
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+
+.info-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  font-size: 0.95rem;
+  border-bottom: 1px solid #ececec;
+}
+
+.info-item:last-child {
+  border-bottom: none;
+}
+
+/* OK / BAD */
+.ok {
+  color: #198754;
+  font-weight: bold;
+}
+
+.bad {
+  color: #dc3545;
+  font-weight: bold;
+}
