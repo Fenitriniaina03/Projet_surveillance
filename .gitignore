@@ -1,0 +1,27 @@
+# Environnement virtuel
+.venv/
+venv/
+.env
+
+# Python / Django
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+db.sqlite3
+*.log
+staticfiles/
+media/
+*.pot
+*.mo
+
+# Node / React
+node_modules/
+build/
+dist/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
